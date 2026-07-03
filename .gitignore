@@ -1,0 +1,24 @@
+# Dependencies / virtual environments
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Editor / assistant tooling
+.claude/
+
+# Raw CMS source data (multi-GB, not distributable — see README for source)
+MUP_DPR_RY26_P04_V10_DY24_NPI.csv
+MUP_DPR_RY26_P04_V10_DY24_NPIBN.csv
+diabetes_prescribing.csv
+
+# Corrupted artifact from a botched shell command (garbled filename)
+backend*cp*
+
+# Build output
+dist/
+build/
+
+# Secrets / OS cruft
+.env
+.DS_Store
